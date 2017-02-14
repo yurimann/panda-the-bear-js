@@ -33,3 +33,9 @@ $('#submit').attr('disabled', 'disabled');
 $('[title="Pikachu"]').clone().insertAfter('form')
 
 for (i=0; i < 10; i++) {$('#right-image img').clone().insertAfter('section');}
+
+date = new Date();
+leftSpanData = document.createElement('span');
+leftSpanData.append(date);
+listItem.append(leftSpanData);
+$('ul.bio-info').append(listItem);
